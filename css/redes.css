@@ -1,0 +1,74 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #191818;
+}
+
+.anuncios {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.anuncio {
+    height: 22rem; 
+    width: 100vw;
+    padding-top: 0.8rem;
+    background-color: #191818;
+    color: #FFFBEA;
+    border-bottom: 10px solid #7B5431;
+}
+
+.anuncio h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.anuncio p,.anuncio a{
+    text-shadow: 1px 1px 2px #000000;
+    padding: 0.8rem;
+    text-align: justify;
+    transition: opacity 1s;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes img{
+    height: 1.5rem;
+}
+
+.redes img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.anuncio>img {
+    border-radius: 5px;
+    position: relative;
+    left: 15vw;
+    height: 12rem;
+    width: 60vw;
+}
+
+.anuncio a{
+    text-decoration: none;
+    color: #191818;
+}
+
+.anuncio a:hover{
+    text-decoration: overline;
+    color: #FFFBEA;
+}

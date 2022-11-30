@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 5vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: #A6A6A6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 0 #737373;
+    z-index: 5;
+}
+
+main {
+    padding-top: 4rem;
+}
+
+.logo {
+    position: relative;
+    height: 4rem;
+    right: 5rem;
+}
+
+nav {
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-shadow: 1px 1px 1px #191818;
+    text-decoration: none;
+    color: #FFFBEA;
+    font-size: 1.2rem;
+}
+
+nav ul li:hover a {
+    text-decoration: overline;
+    color: #191818;
+}
+
+/*Main*/
+#seccion-bienvenida {
+    text-align: center;
+    text-shadow: 1px 1px 2px #FFFBEA;
+    height: 100vh;
+    width: 100vw;
+    background-color: #191818;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion {
+    color: #7B5431;
+    font-size: 2.5rem;
+}
+
+.presentacion-info {
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #FFFBEA;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.nuestrasRedes img{
+height: 7rem;
+padding: 1rem;
+transition: transform 0.7s;
+}
+
+.nuestrasRedes img:hover{
+    cursor: pointer;
+    transform: translateY(-1rem);
+    opacity: 0.8;
+    }
+
+.contenedor_presentacion{
+    height: 40vh;
+    width: 70vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* footer */
+
+footer {
+    padding: 3rem;
+    height: 50vh;
+    width: 100vw;
+    background-color: #737373;
+    color: #FFFBEA;
+}
+
+.contenedor_footer {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+
+
+
+.info-legal ul{
+    list-style: none;
+    padding: 1rem;
+}
+
+.info-legal h4{
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.info-legal ul li a {
+    text-shadow: 1px 1px 2px #000000;
+   text-decoration: none;
+   color: #FFFBEA;
+}
+
+.info-legal ul li a:hover{
+    color:#191818;
+ }
+
+.info-legal ul li{
+    padding: 0.5rem;
+ }
